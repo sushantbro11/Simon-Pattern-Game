@@ -75,7 +75,7 @@ function checkAnswer(currentLevel) {
 
     
     //Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-    $("#level-title").text("Game Over, You reached level " + level + " Press any key to restart.");
+    $("#level-title").text("Game Over, You reached level " + level + ". Press any key to restart.");
 
     //Call startOver() if the user gets the sequence wrong.
     startOver();
